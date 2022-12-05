@@ -1,0 +1,20 @@
+{
+    "config_name": "develop",
+    "jwt_config": {
+        "secretKey": "secret-key@123&dg=$hk",
+        "expiresIn": 86400
+    },
+    "upload_config": {
+        "baseURL": "http://127.0.0.1:8080/",
+        "upload_ueditor": "uploads/ueditor",
+        "simple_upload_redirect": "http://127.0.0.1/reload"
+    },
+    "db_config": {
+        "protocol": "mongodb",
+        "host": "127.0.0.1",
+        "database": "backstage",
+        "user": "root",
+        "password": "root",
+        "port": 8080
+    }
+}
